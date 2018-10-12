@@ -1,0 +1,616 @@
+* {
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/*div{
+	border:1px solid red;
+}*/
+
+.wrap {
+	min-width: 1200px;
+	/*height:1500px;*/
+}
+
+.container {
+	/*border: 1px solid red;*/
+	height: 2700px;
+}
+
+.head {
+	/*	border:0px solid  green;*/
+	height: 156px;
+}
+
+.title {
+	width: 100%;
+	height: 30px;
+	border: 1px solid gainsboro;
+	background-image: url(../img/bg1.png);
+}
+
+.title_p1 {
+	float: left;
+	font-family: "黑体";
+	font-size: 12px;
+	margin-top: 7px;
+}
+
+.title_p2 {
+	float: right;
+	font-family: "黑体";
+	font-size: 12px;
+	margin-top: 6px;
+}
+
+.title select {
+	border: 0px;
+	color: black;
+	position: relative;
+	right: 8px;
+	top: 2px;
+	width: 12px;
+	height: 15px;
+	background-color: #F1F1F1;
+	opacity: 0.3;
+}
+
+.title p img {
+	position: relative;
+	top: 2px;
+}
+
+.head_logo {
+	width: 1200px;
+	height: 80px;
+	border: 0px solid green;
+	margin: 0 auto;
+}
+
+.head_logo_p1 {
+	float: left;
+	position: relative;
+	top: 10px;
+}
+
+.head_logo_p2 {
+	float: right;
+	margin-right: 385px;
+	position: relative;
+	bottom: 39px;
+}
+
+.head_logo_p3 {
+	float: right;
+	position: relative;
+	left: 785px;
+	bottom: 42px;
+	border: 0px solid red;
+}
+
+.head_nav {
+	width: 100%;
+	height: 39px;
+	/*background-color:rgb(244,124,27);*/
+	background-image: url(../img/r_nav1.png);
+	background-size: 100% 39px;
+	border: 1px solid orangered;
+	background-repeat: no-repeat;
+	clear: both;
+	/*margin-top: -100px;*/
+	position: relative;
+	top: -77px;
+	margin-top: 28px;
+}
+
+.head_nav ul {
+	list-style-type: none;
+}
+
+.head_nav ul li {
+	/*list-style-type:none;*/
+	float: left;
+	width: 84px;
+	margin-left: 26px;
+	color: white;
+	font-size: 15px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	border-right: 1px solid orange;
+	margin-top: 7px;
+}
+
+.logo {
+	/*border:1px solid green;*/
+	width: 1200px;
+	height: 215px;
+	margin: 0px auto;
+	position: relative;
+	top: -3px;
+	/*clear:both;*/
+}
+
+.logo_in {
+	width: 750px;
+	height: 101px;
+	background-image: url(../img/p_bg2_1.png);
+	background-size: 750px 101px;
+	background-repeat: no-repeat;
+}
+
+.logo_span2 {
+	font-size: 14px;
+	margin-left: 12px;
+}
+
+.logo_img1 {
+	float: left;
+	position: relative;
+	top: -60px;
+	/*border:1px solid red;*/
+	width: 30px;
+	height: 40px;
+}
+
+.login {
+	border-bottom: 1px solid gainsboro;
+	border-right: 1px solid gainsboro;
+	height: 100px;
+	width: 450px;
+	float: right;
+	position: relative;
+	bottom: 101px;
+	background-image: url(../img/p_bg1.png);
+	background-size: 450px 101px;
+	/*margin-top:1px;*/
+}
+
+.login_p1 {
+	width: 450px;
+	height: 35px;
+	font-size: 15px;
+	font-family: '黑体';
+	margin-top: 12px;
+	margin-left: 40px;
+}
+
+.login_p2,
+.login_p3 {
+	float: left;
+	width: 155px;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid gainsboro;
+	border-bottom: 1px solid gainsboro;
+	height: 24px;
+	margin-top: -10px;
+	background-color: white;
+}
+
+.login_p4 {
+	clear: both;
+	font-size: 14px;
+	margin-left: 40px;
+	margin-top: -15px;
+}
+
+.login input {
+	width: 110px;
+	height: 18px;
+	position: relative;
+	bottom: 22px;
+	left: -6px;
+	border: 0px solid green;
+	outline: none;
+}
+
+.login_p2 {
+	margin-left: 40px;
+	margin-right: 10px;
+}
+
+.logo_ad {
+	width: 1200px;
+	height: 99px;
+	border: 0px solid red;
+}
+
+.content {
+	width: 1200px;
+	height: 2210px;
+	/*	border: 1px solid green;*/
+	margin: -19px auto;
+}
+
+.main {
+	width: 1200px;
+	height: 1900px;
+	/*border:1px solid red;*/
+	margin: 0 auto;
+}
+
+.main_left {
+	width: 860px;
+	height: 1980px;
+	/*border: 1px solid red;*/
+	float: left;
+	margin-right: 20px;
+}
+
+.main_right {
+	width: 320px;
+	height: 835px;
+	border: 1px solid white;
+	float: right;
+	margin-top: -1971px;
+	/*margin-left:875px;*/
+}
+
+.search {
+	width: 860px;
+	height: 170px;
+	background-image: url(../img/p_bg3.png);
+	background-size: 900px 170px;
+	margin-top: 9px;
+	border-right: 1px solid #BEBEBE;
+}
+
+.left_p1 {
+	border-bottom: 1px solid orangered;
+	width: 860px;
+	height: 30px;
+}
+
+.left_s1 {
+	font-size: 14px;
+	font-family: "宋体";
+	margin-left: 20px;
+	margin-right: 190px;
+}
+
+.left_s2 {
+	font-size: 15px;
+	font-family: "宋体";
+	/*margin-left:20px;*/
+}
+
+.search select {
+	font-size: 14px;
+	font-family: "宋体";
+	border-left: 1px solid black;
+	border-top: 1px solid black;
+	border-right: 1px solid gray;
+	border-bottom: 1px solid gray;
+	width: 150px;
+	height: 24px;
+	color: gray;
+}
+
+.search select option {
+	border: 1px solid black;
+	width: 30px;
+	height: 30px;
+	color: black;
+}
+
+.left_p4 {
+	margin-top: 11px;
+}
+
+.left_p2 {
+	margin-top: 11px;
+	border-bottom: 1px dotted orangered;
+	padding-bottom: 10px;
+}
+
+.left_p3 {
+	border-bottom: 1px dotted orangered;
+	padding-bottom: 7px;
+	margin-top: 10px;
+}
+
+.left_p4_p1 {
+	border-top: 1px solid black;
+	border-left: 1px solid gainsboro;
+	border-bottom: 1px solid gainsboro;
+	border-right: 1px solid gainsboro;
+	width: 435px;
+	height: 25px;
+	float: left;
+}
+
+.new_resume {
+	width: 860px;
+	height: 1780px;
+	border: 1px solid #BEBEBE;
+	margin-top: 13px;
+}
+
+.new {
+	width: 860px;
+	height: 27px;
+	border-bottom: 2px solid orangered;
+	background-image: url(../img/p_navborder.png);
+	background-size: 859px 27px;
+	background-repeat: no-repeat;
+}
+
+.new_re {
+	width: 110px;
+	height: 43px;
+	background-image: url(../img/p_dirc.png);
+	background-size: 120px 43px;
+	position: relative;
+	top: -4px;
+	left: -3px;
+}
+
+.pic {
+	/*border:1px solid #BEBEBE;*/
+}
+
+.pic_tab table {
+	width: 840px;
+	height: 28px;
+	border: 1px solid gainsboro;
+	margin-top: 20px;
+	margin-left: 10px;
+	background-color: ghostwhite;
+}
+
+.pic_tab table tr {
+	width: 840px;
+}
+
+.pic_tab table tr td {
+	border-right: 1px solid gainsboro;
+	font-size: 15px;
+}
+
+.pic_content {
+	/*border:1px solid green;*/
+	height: 1750px;
+}
+
+.pic_content1 {
+	width: 840px;
+	height: 105px;
+	border-bottom: 1px solid gainsboro;
+	margin-left: 10px;
+	/*border:1px solid red;*/
+	margin-top: 10px;
+	clear: both;
+}
+
+.pic_p1 {
+	float: left;
+	margin-top: 0px;
+}
+
+.pic_p2 {
+	float: left;
+	margin-top: 5px;
+	margin-left: 15px;
+}
+
+.pic_p3 {
+	float: left;
+	margin-top: 10px;
+	color: gray;
+	font-size: 13px;
+	margin-left: 10px;
+}
+
+.pic_p4 {
+	float: left;
+	width: 720px;
+	padding-left: 10px;
+	font-size: 13px;
+	padding-bottom: 20px;
+	margin-top: 6px;
+	line-height: 20px;
+}
+
+.pic_name {
+	font-size: 15px;
+	font-weight: bold;
+	color: #FF7500;
+	margin-right: 65px;
+}
+
+.con1_s1 {
+	color: #FF7500;
+	font-size: 13px;
+	margin-left: 10px;
+}
+
+.con1_s2 {
+	color: #FF7500;
+	font-size: 13px;
+	margin-left: 10px;
+}
+
+.con1_s3 {
+	color: #FF7500;
+	font-size: 13px;
+	margin-left: 10px;
+	margin-right: 50px;
+}
+
+.con1_s4 {
+	color: black;
+	font-size: 13px;
+	margin-left: 10px;
+	margin-right: 115px;
+}
+
+.con1_s5 {
+	color: black;
+	font-size: 13px;
+	margin-left: 10px;
+}
+
+.pic_tips {
+	clear: both;
+}
+
+.tips_p1 {
+	float: left;
+	font-size: 13px;
+	margin-left: 10px;
+	position: relative;
+	top: 10px;
+}
+
+.tips_p2 {
+	float: right;
+	margin-right: 11px;
+	position: relative;
+	top: 10px;
+}
+
+.job {
+	width: 320px;
+	height: 272px;
+	border: 1px solid #BEBEBE;
+}
+
+.job_more,
+.recommend_more {
+	height: 30px;
+	width: 320px;
+	background-image: url(../img/p_nav_right1.png);
+	background-size: 320px 30px;
+	border-bottom: 2px solid orangered;
+}
+
+.job_list {
+	clear: both;
+	width: 320px;
+	height: 210px;
+}
+
+.job_list ul {
+	list-style-image: url(../img/p_li.png);
+	list-style-position: inside;
+	margin-left: 10px;
+}
+
+.job_list ul li {
+	width: 296px;
+	height: 25px;
+	margin-top: 9px;
+	border-bottom: 1px dotted orangered;
+	font-size: 14px;
+}
+
+.num {
+	color: gray;
+}
+
+.recommend {
+	margin-top: 15px;
+	width: 320px;
+	height: 550px;
+	border: 1px solid #BEBEBE;
+}
+
+.recommend_re {
+	width: 310px;
+	height: 520px;
+	/*border:1px solid red;*/
+}
+
+.recommend_re1 {
+	width: 300px;
+	height: 110px;
+	border-bottom: 1px dotted orangered;
+	margin-left: 10px;
+	clear: both;
+	padding-top: 10px;
+}
+
+.recommend_p1 {
+	float: left;
+	width: 72px;
+	height: 91px;
+}
+
+.recommend_p2 {
+	float: right;
+	width: 220px;
+	height: 100px;
+	font-size: 13px;
+	line-height: 18px;
+	margin-top: 3px;
+	margin-right: 5px;
+}
+
+.friend {
+	width: 1200px;
+	height: 170px;
+	border: 1px solid #BEBEBE;
+	margin-top: 110px;
+}
+
+.friend_more {
+	width: 1200px;
+	height: 30px;
+	background-image: url(../img/p_navborder.png);
+	background-size: 1200px 30px;
+	border-bottom: 2px solid orangered;
+}
+
+.friend_txt {
+	margin-left: 38px;
+	font-size: 13px;
+	margin-top: 10px;
+	line-height: 23px;
+	width: 1155px;
+}
+
+.footer {
+	border: 0px solid red;
+	width: 1200px;
+	height: 130px;
+	margin: 28px auto;
+}
+
+.footer1 {
+	width: 1200px;
+	height: 34px;
+	background-image: url(../img/foot_nav.png);
+	background-size: 1200px 34px;
+}
+
+.footer2 {
+	width: 1200px;
+	margin: 10px auto;
+}
+
+.footer ul {
+	list-style-type: none;
+}
+
+.footer ul li {
+	float: left;
+	width: 70px;
+	color: white;
+	font-weight: bold;
+	font-family: "宋体";
+	font-size: 13px;
+	/*   margin-left:10px;*/
+	padding-left: 25px;
+	padding-right: 10px;
+	margin-top: 9px;
+	border-right: 1px solid white;
+}
+
+.footer2 p {
+	font-family: "宋体";
+	font-size: 12px;
+	/*margin-top:25px;*/
+	line-height: 19px;
+}
